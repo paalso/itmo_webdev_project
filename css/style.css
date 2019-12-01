@@ -10,7 +10,6 @@ body {
   font-family: Tahoma, sans-serif;
   font-size: 18px;
   line-height: 24px;
-  /* color: #555555; */
   color: #404040;
 }
 
@@ -63,9 +62,9 @@ body {
   min-height: 82px;
 }
 
-.logo img {         /* Зачем? */
-    display: block;
-  }
+.logo img {
+  display: block; /* Зачем? */
+}
 
 .main-menu {
   width: 670px;
@@ -120,7 +119,7 @@ body {
   width: 450px;
 }
 
-.promo::after{
+.promo::after {
   content: "";
   position: absolute;
   top: -20px;
@@ -268,25 +267,23 @@ body {
 
 .contacts {
   padding-top: 50px;
-  padding-bottom: 75px;
+  padding-bottom: 55px;
   background-color: #efefef;
 }
 
 .contacts-form {
   float: left;
-  width: 620px;
+  width: 640px;
 }
 
-/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 .contacts-form td {
-  /* padding-top: 0; */
-  padding-bottom: 20px;
-  /* border: solid 1px red; */
+  padding-top: 10px;
+  padding-bottom: 12px;
 }
 
 .contacts-form .title {
-  width: 65px;
-  padding-top: 12px;
+  width: 18%;
+  padding-top: 15px;
   padding-right: 15px;
   text-align: right;
   vertical-align: top;
@@ -296,17 +293,17 @@ body {
 }
 
 .contacts-form .field {
-  width: 550px;
-  /* border: 1px solid red; */
+  width: 82%;
+  padding-top: 10px;
 }
 
 .contacts-form input[type="text"],
 .contacts-form textarea {
--webkit-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  box-sizing: border-box;
   width: 100%;
-  padding: 18px 30px;
+  padding: 15px 25px;
   font-family: Tahoma, sans-serif;
   font-size: 18px;
   line-height: 24px;
@@ -325,16 +322,12 @@ body {
   border: 2px solid #6451d5;
 }
 
-.radio-field {
-  padding-top: 12px;
-}
-
-.contacts-form input[type="radio"][name="sex"] { 
-  margin-left: 15px;
+.contacts-form input[type="radio"][name="sex"] {
+  margin-left: 20px;
   margin-right: 25px;
 }
 
-.contacts-form input[type="radio"][name="sex"][id="female"] { 
+.contacts-form input[type="radio"][name="sex"][id="female"] {
   margin-left: 50px;
 }
 
@@ -348,8 +341,8 @@ body {
   width: 100%;
 }
 .contacts-instructions {
-    float: right;
-    width: 320px;
+  float: right;
+  width: 320px;
 }
 
 .contacts .container::after {
@@ -359,20 +352,20 @@ body {
 }
 
 .contacts-instructions h3 {
-    margin-bottom: 25px;
-    line-height: 30px;
-    color: #000000;
-    font-family: "Trebuchet MS", sans-serif;
-    font-size: 22px;
+  margin-bottom: 25px;
+  line-height: 30px;
+  color: #000000;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 22px;
 }
 
 .contacts-instructions p {
-    margin-bottom: 25px;
-    color: #555555;
+  margin-bottom: 25px;
+  color: #555555;
 }
 
 .contacts-instructions-alert {
-    margin-top: 40px;
+  margin: 40px 0 0 0;
 }
 
 .contacts-instructions-alert strong {
