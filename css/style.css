@@ -229,8 +229,7 @@ body {
 }
 
 .info-table,
-.info-table td,
-.info-table th {
+.info-table td {
   border-collapse: collapse;
   border: solid 2px #a7a7a7;
 }
