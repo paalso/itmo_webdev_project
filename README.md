@@ -6,3 +6,5 @@
 [Course Progress](https://courses.openedu.ru/courses/course-v1:ITMOUniversity+WEBDEV+fall_2019/progress)
 
 [Course Progress (img)](https://drive.google.com/open?id=1VT5z0JRF--_uTyG0BD0PqZaPxwZw2YQB)
+
+[CodePen Link](https://codepen.io/paalso/pen/rNaNeZO)
